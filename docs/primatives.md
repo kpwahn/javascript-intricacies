@@ -15,7 +15,7 @@ JavaScript defines 5 types of primitive data types:
 
 >if x = 3.14, you can change the value of x. But you cannot change the value of 3.14.
 
-## In JavaScript anything that is not a primitive type (undefined, null, number, string, boolean) is an object (or an instance) in JavaScript. <sup>[1](#functionIsObject)</sup>
+**In JavaScript anything that is not a primitive type (undefined, null, number, string, boolean) is an object (or an instance) in JavaScript. <sup>[1](#functionIsObject)</sup>**
 
 
 <a name="functionIsObject">1. https://stackoverflow.com/questions/3449596/every-object-is-a-function-and-every-function-is-object-which-is-correct</a>

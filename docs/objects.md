@@ -1,7 +1,7 @@
 # Objects
 
 ## In JavaScript, almost everything is an object
-All JavaScript values, except for [primatives](primatives.md), are objects.
+All JavaScript values, except for [primatives](primatives.md), are objects (The inverse is also true).
 
 An object is a collection of related data and/or functionality (which usually consists of several variables and functions — which are called properties and methods when they are inside objects.
 
