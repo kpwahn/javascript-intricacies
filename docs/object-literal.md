@@ -9,8 +9,8 @@ An object literal is a list of name:value pairs (like age: 30) inside curly brac
 The following example creates a new JavaScript object with two properties:
 
 ```javascript
-    let person = {
-        age: 30,
-        name: "John"
-    }
+let person = {
+    age: 30,
+    name: "John"
+}
 ```

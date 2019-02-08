@@ -13,8 +13,8 @@ In the example above, function Person() is an object constructor function.
 Objects of the same type are created by calling the constructor function with the new keyword:
 
 ```javaScript
-    var myFather = new Person("John", "Doe", 50, "blue");
-    var myMother = new Person("Sally", "Rally", 48, "green");
+var myFather = new Person("John", "Doe", 50, "blue");
+var myMother = new Person("Sally", "Rally", 48, "green");
 ```
 
 > It is considered good practice to name constructor functions with an upper-case first letter.

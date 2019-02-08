@@ -7,19 +7,19 @@ An object is a collection of related data and/or functionality (which usually co
 
 Objects look like this:
 ```javascript
-    {
-        name: "John",                     // property
-        sayHello: function() {            // method
-            console.log('Saying hello!');
-        }
+{
+    name: "John",                     // property
+    sayHello: function() {            // method
+        console.log('Saying hello!');
     }
+}
 ```
 
 You can define (and create) a JavaScript object with an [object literal](./object-literal.md):
 ```javascript
-    var person = {
-        name: "John"
-    };
+var person = {
+    name: "John"
+};
 ```
 
 You can define (and create) a JavaScript object with the keyword `new`.
