@@ -22,7 +22,7 @@ var person = {
 };
 ```
 
-You can define (and create) a JavaScript object with the keyword `new`. You do this by defining an [object constructor function](./object-constructor-function.md). Then you can create objects for the constructed type.
+You can define (and create) a JavaScript object with the keyword [`new`](./new-operator.md). You do this by defining an [object constructor function](./object-constructor-function.md). Then you can create objects for the constructed type.
 
 You can create a JavaScript object with Object.create();
 
