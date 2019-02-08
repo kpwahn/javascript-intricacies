@@ -15,14 +15,16 @@ Objects look like this:
 }
 ```
 
-You can define (and create) a JavaScript object with an [object literal](./object-literal.md):
+## Ways to define/create objects
+
+1. You can define (and create) a JavaScript object with an [object literal](./object-literal.md):
 ```javascript
 var person = {
     name: "John"
 };
 ```
 
-You can define (and create) a JavaScript object with the keyword [`new`](./new-operator.md). You do this by defining an [object constructor function](./object-constructor-function.md). Then you can create objects for the constructed type.
+2. You can define (and create) a JavaScript object with the keyword [`new`](./new-operator.md). You do this by defining an [object constructor function](./object-constructor-function.md). Then you can create objects for the constructed type.
 
-You can create a JavaScript object with Object.create();
+3. You can create a JavaScript object with Object.create();
 
