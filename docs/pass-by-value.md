@@ -8,6 +8,8 @@ However, changing a property of an object referenced by a variable does change t
 
 When you assign an object (i.e. a reference) from one variable to another, the value stored in the variable is also copied into the location of the new variable. The difference is that the values stored in both variables now are the address of the actual object stored in the heap. As the result, both variables are pointing to the same object. - http://www.javascripttutorial.net/javascript-primitive-vs-reference-values/
 
+["Arguments are passes to function by *value*"](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions)
+
 
 - https://stackoverflow.com/questions/7744611/pass-variables-by-reference-in-javascript
 - https://stackoverflow.com/questions/373419/whats-the-difference-between-passing-by-reference-vs-passing-by-value
