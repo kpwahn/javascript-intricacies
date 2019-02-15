@@ -17,9 +17,9 @@ Objects look like this:
 
 ## Ways to define/create objects
 
-1. You can define (and create) a JavaScript object with an [object literal](./object-literal.md):
+1. You can define (and create) a JavaScript object with an [object literal](./object-literal.md).
 
-2. You can define (and create) a JavaScript object with the keyword [`new`](./new-operator.md). You do this by defining a [`class`](./classes.md) or [object constructor function](./object-constructor-function.md). Then you can instantiate  objects of the defined type. 
+2. You can define (and create) a JavaScript object with the keyword [`new`](./new-operator.md). You do this by defining a [`class`](./classes.md) or an [object constructor function](./object-constructor-function.md). Then you can instantiate  objects of the defined type. 
 
     * Read more about the [object constructor function](./object-constructor-function.md) for info on why I think you should use the [`class`](./classes.md) syntax instead.
 
