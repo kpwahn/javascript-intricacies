@@ -18,11 +18,6 @@ Objects look like this:
 ## Ways to define/create objects
 
 1. You can define (and create) a JavaScript object with an [object literal](./object-literal.md):
-```javascript
-var person = {
-    name: "John"
-};
-```
 
 2. You can define (and create) a JavaScript object with the keyword [`new`](./new-operator.md). You do this by defining an class (add link) or [object constructor function](./object-constructor-function.md). Then you can create objects for the constructed type. Read more about the [object constructor function](./object-constructor-function.md) for info on why I think you should use the `class` syntax instead.
 

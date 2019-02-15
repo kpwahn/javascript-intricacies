@@ -11,6 +11,9 @@ The following example creates a new JavaScript object with two properties:
 ```javascript
 let person = {
     age: 30,
-    name: "John"
+    name: "John",
+    sayHello: function() {
+        console.log(`hello my name is ${this.name}`);
+    }
 }
 ```
