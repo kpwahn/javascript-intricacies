@@ -17,3 +17,5 @@ let person = {
     }
 }
 ```
+
+Objects are created as if a call to [new](./new-operator.md) Object() were made; that is, objects made from object literal expressions are instances of Object.

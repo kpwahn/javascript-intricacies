@@ -23,5 +23,5 @@ Objects look like this:
 
     * Read more about the [object constructor function](./object-constructor-function.md) for info on why I think you should use the [`class`](./classes.md) syntax instead.
 
-3. You can create a JavaScript object with Object.create();
+3. You can create a JavaScript object with [`Object.create()`](./object-create.md);
 
