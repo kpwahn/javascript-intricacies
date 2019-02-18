@@ -1,4 +1,4 @@
-# Object Literals
+# Object Literals (also called object initializer)
 
 This is the easiest way to create a JavaScript Object.
 
