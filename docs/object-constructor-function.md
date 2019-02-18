@@ -1,5 +1,8 @@
 # JavaScript Object Constructors <sup>[1](#JavaScriptObjectConstructors)</sup>
 
+In JavaScript, constructors are just funcitons that happen to be called with the `new` operator.
+*There's really no such thing as "constructor functions," but rather construction calls of functions.*
+
 ```javaScript
 function Person(first, last, age, eye) {
     this.firstName = first;
@@ -53,6 +56,6 @@ To gain some efficiency (space) you want to declare the method on the prototype
     };
 ```
 
-Now when you create a new person, it will be able to `sayHello`, but that functionality won't polute each instance of the Person object. Note that class (please add link) does this for you for free! #syntaticsugar
+Now when you create a new person, it will be able to `sayHello`, but that functionality won't polute each instance of the Person object. Note that [class]('./classes.md) does this for you for free! #syntaticsugar
 
 <a name="JavaScriptObjectConstructors">1. https://www.w3schools.com/js/js_object_constructors.asp</a>

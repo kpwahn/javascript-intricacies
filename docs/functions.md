@@ -1,0 +1,1 @@
+[object constructor function](./object-constructor-function.md)
