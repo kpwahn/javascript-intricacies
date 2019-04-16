@@ -29,9 +29,10 @@ Looks like this to the call stack:
             x       x       x       x       x
     global  global  global  global  global  global  global  
 ```
+Not the call stack is initially empty.
 
-When javascript (the browser, or node) starts running your code, it creates a global execution context (and global memory) that it starts running your code in. 
+When javascript (the browser, or node) starts running your code, it creates and enters a global execution context (and global memory) by default and pushes that context to your call stack. 
 
-As functions are called, they (and additional information) are added to the call stack.
+As functions are called, they (and their [execution context](./execution-context.md)) are pushed to the call stack.
 
 <a name="callStack">1. https://developer.mozilla.org/en-US/docs/Glossary/Call_stack</a>
