@@ -30,6 +30,8 @@ Looks like this to the call stack:
     global  global  global  global  global  global  global  
 ```
 
-When javascript (the browser, or node) starts running your code, it creates a global execution context (and global memory) that it starts running your code in. As functions are called, they (and additional information) are added to the call stack.
+When javascript (the browser, or node) starts running your code, it creates a global execution context (and global memory) that it starts running your code in. 
+
+As functions are called, they (and additional information) are added to the call stack.
 
 <a name="callStack">1. https://developer.mozilla.org/en-US/docs/Glossary/Call_stack</a>
